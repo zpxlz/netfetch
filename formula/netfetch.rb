@@ -3,11 +3,11 @@ class Netfetch < Formula
   homepage "https://github.com/deggja/netfetch"
 
   if OS.mac?
-    url "https://github.com/deggja/netfetch/releases/download/5.2.5/netfetch_5.2.5_darwin_amd64.tar.gz"
-    sha256 "056daed4bef3da2149d2bf9c1a9dc181fad2398b2c7add462d0b062090705c44"
+    url "https://github.com/deggja/netfetch/releases/download/v0.5.4/netfetch_0.5.4_darwin_amd64.tar.gz"
+    sha256 "ada24b740c746bdf14e67c2153dbc02440462aa765e7ac31b87439aff845d48c"
   elsif OS.linux?
-    url "https://github.com/deggja/netfetch/releases/download/5.2.5/netfetch_5.2.5_linux_amd64.tar.gz"
-    sha256 "cdec364c59d5ae41a7d755d5b3c9afbccd4bd935c3b539dd699eb82b8e6bb8e0"
+    url "https://github.com/deggja/netfetch/releases/download/v0.5.4/netfetch_0.5.4_linux_amd64.tar.gz"
+    sha256 "8757efca2f1196777acc45299773da105d8ce40a260e5de8d9f72d942f6f896b"
   end
 
   def install
